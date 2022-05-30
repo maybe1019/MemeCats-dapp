@@ -70,7 +70,7 @@ export default function MintPage() {
             }
           </button>
         </div>
-        <p>first {config.contract.freePerWallet} free ({config.contract.freePerWallet} per wallet), then {config.contract.price} eth ({config.contract.freePerWallet} per tx)</p>
+        <p>first {config.contract.freeMint} free ({config.contract.freePerWallet} per wallet), then {config.contract.price} eth ({config.contract.maxPerWallet} per tx)</p>
       </div>
 
       <div className='nft-image'>
