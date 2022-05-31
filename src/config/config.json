@@ -4,7 +4,7 @@
   "infuraId": "c1ba29d27c6b40779d9a00a8850d4f9e",
   "chainId": 1,
   "contract": {
-    "totalSupply": 4444,
+    "totalSupply": 2500,
     "maxPerWallet": 10,
     "freeMint": 444,
     "freePerWallet": 3,

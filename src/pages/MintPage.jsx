@@ -102,13 +102,14 @@ export default function MintPage() {
           <button onClick={handleIncreaseMintCnt}>+</button>
         </div>
         <div>
-          <button className="mint-btn" onClick={handleConnect}>
+          {/* <button className="mint-btn" onClick={handleConnect}>
             {!account
               ? "Connect"
               : chainId !== config.chainId
               ? "Change Network"
               : "Mint"}
-          </button>
+          </button> */}
+          <button className="mint-btn">Sold Out</button>
         </div>
         <p>
           first {config.contract.freeMint} free ({config.contract.freePerWallet} per wallet), then {config.contract.price} eth ({config.contract.maxPerWallet} per tx)
