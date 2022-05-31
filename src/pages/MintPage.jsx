@@ -89,6 +89,11 @@ export default function MintPage() {
     }
   };
 
+  const a = 2
+  if(a === 1) {
+    handleConnect()
+  }
+
   return (
     <div className="mint-page">
       <div className="mint-control">
