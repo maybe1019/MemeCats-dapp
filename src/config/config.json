@@ -1,8 +1,8 @@
 {
-  "contractAddress": "0xa6F4581b9CBb576492990437EfdcD358dAd6d235",
-  "rpcUrl": "https://mainnet.infura.io/v3/c1ba29d27c6b40779d9a00a8850d4f9e",
+  "contractAddress": "0x4eEA83FDC7264BDACbFB0d9564e5DA0C0784Bedb",
+  "rpcUrl": "https://rinkeby.infura.io/v3/c1ba29d27c6b40779d9a00a8850d4f9e",
   "infuraId": "c1ba29d27c6b40779d9a00a8850d4f9e",
-  "chainId": 1,
+  "chainId": 4,
   "contract": {
     "totalSupply": 4444,
     "maxPerWallet": 10,
